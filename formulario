@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Lindo</title>
+</head>
+<body>
+    <form action="mailto:nada@gmail.com" method="post">
+      
+    <div>
+        <label for="nomecompleto">Nome completo: </label>
+        <input type="text" name="nomecompleto" id="" required placeholder="Fulano da Silva"> <br>
+    </div>
+
+        
+    <div>
+        <label for="cpf">CPF: </label>
+        <input type="text" name="cpf" id="" placeholder="999.999.999.99"
+        maxlength="11" required>
+    </div>
+
+
+    <div>
+
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" id="" maxlength="10" minlength="8">
+
+    </div>
+
+
+    <div>
+        <label for=""> Selecione os Seus Pets Favoritos: </label>
+        <br>
+        <input type="checkbox" name="dog" id="">Cachorro <br>
+        <input type="checkbox" name="cat" id=""> Gato<br>
+        <input type="checkbox" name="bird" id="">Passaro <br>
+        <input type="checkbox" name="iguana" id=""> Iguana <br>
+        <input type="checkbox" name="Porquinho" id="">Porquiho <br>
+    </div>
+
+    <div>
+        <label for="timecoracao">Selecione o seu time do coracao</label> <br>
+        <input type="radio" name="timecoacao" id=""> Sao Paulo <br>
+        <input type="radio" name="timecoracao" id=""> Palmeiras <br>
+        <input type="radio" name="timecoracao" id=""> Santos <br>
+        <input type="radio" name="timecoracao" id="" checked> Corithians <br>
+        <input type="radio" name="timecoracao" id=""> Era melhor ver  filme do pele <br>
+        <input type="radio" name="timecoracao" id=""> Nanhuma das anteriores
+
+
+    </div>
+
+
+
+</body>
+</html>
