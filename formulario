@@ -39,6 +39,7 @@
         <input type="checkbox" name="Porquinho" id="">Porquiho <br>
     </div>
 
+
     <div>
         <label for="timecoracao">Selecione o seu time do coracao</label> <br>
         <input type="radio" name="timecoacao" id=""> Sao Paulo <br>
@@ -47,9 +48,32 @@
         <input type="radio" name="timecoracao" id="" checked> Corithians <br>
         <input type="radio" name="timecoracao" id=""> Era melhor ver  filme do pele <br>
         <input type="radio" name="timecoracao" id=""> Nanhuma das anteriores
+     </div>
 
 
+     <div>
+        <label for="formpagto">Forma de pagamento: </label>
+        <select name="formapagto" id="">
+            <option value="dinheiro">Dinheiro</option>
+            <option value="pix">Pix</option>
+            <option value="debito">Debito</option>
+            <option value="credito">Credito</option>
+            <option value="cupom">Cupom de desconto</option>
+        </select>
     </div>
+
+    <div>
+        <label for="cor">Escolha uma cor</label>
+        <input type="color" name="cor" id="">
+    </div>
+
+
+    <div>
+        <label for="arquivo">Escolha um arquivo</label>
+        <input type="file" name="arquivo" id="">
+    </div>
+
+
 
 
 
