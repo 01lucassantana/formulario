@@ -63,6 +63,12 @@
     </div>
 
     <div>
+        <label for="datanasc">Data de nascimento</label>
+        <input type="date" name="Data de Nascimento" id="">
+
+    </div>
+
+    <div>
         <label for="cor">Escolha uma cor</label>
         <input type="color" name="cor" id="">
     </div>
@@ -71,6 +77,12 @@
     <div>
         <label for="arquivo">Escolha um arquivo</label>
         <input type="file" name="arquivo" id="">
+    </div>
+
+    <div>
+        <input type="submit" value="Enviar tudo">
+        <input type="reset" value="Limpar formuario">
+
     </div>
 
 
